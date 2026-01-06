@@ -17,6 +17,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 2px solid lightcyan;
 }
 
 .topbar i{
@@ -147,6 +148,7 @@ button:hover{
 }
 
 pre{
+    border-top: 2px solid lightcyan;
     height: 150px;
     display: flex;
     align-items: center;
