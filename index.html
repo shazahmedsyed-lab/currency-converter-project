@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel = "stylesheet" href = "./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="topbar">
+        <h2>Currency Converter</h2>
+        <i class="fa-regular fa-money-bill-1"></i>
+    </div>
+
+    <div class = "main">
+        <p id = "stmt1">Convert Currency values</p>
+        <form>
+            <label>Enter Amount</label>
+                <div class = "amount">
+
+                    <input type = "text" width="100%" placeholder="Enter amount here">
+                </div>
+                <div class = "dropdown">
+                    <div class = "select">
+                    <p id = "stmt">From</p>
+                    <img src="https://flagsapi.com/US/flat/64.png">
+                    <select class ="from">
+                        <option value ="USD" selected>USD</option>
+                    </select>
+                    </div>
+                    <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                    <div class ="select">
+                    <p id = "stmt">To</p>
+                    <img src="https://flagsapi.com/IN/flat/64.png">
+                    <select class ="to">
+                        <option value ="INR" selected>INR</option>
+                    </select>
+                    </div>
+                </div>
+                <div class ="res">
+                    <p id = "msg">1USD = 90INR</p>
+                    <button>Get Exchange Value</button>
+                </div>
+            </label>
+        </form>
+    </div>
+
+<footer>
+    <pre>  Conditions of Use & Sale     Privacy Notice       Interest-Based Ads<br>
+                    © 1996-2025, Shaz.com, Inc. or its affiliates
+</pre>
+</footer>
+</body>
+<script src="./codes.js"></script>
+<script src = "./logic.js"></script>
+</html>
